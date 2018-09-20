@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title>D&D dice</title>
+<script type= "text/javascript" src="sketch.js"></script>
+<link rel='stylesheet' href="dice.css">
+<link href='http://fonts.googleapis.com/css?family=Berkshire+Swash' rel='stylesheet' type='text/css'>
+
+</head>
+
+<body>
+
+  <h1>D&D DICE</h1>
+
+
+  <div class="grid">
+  <!--four sided die -->
+  <div class="col">
+  <h2> 4 SIDED DIE </h2>
+  <div id="die4" class="dice">0</div>
+  <button onclick="rollDice4()">Roll!</button>
+    <h5 id="status4"></h5>
+</div>
+
+<!-- six sided die-->
+<div class="col">
+  <h2> 6 SIDED DIE </h2>
+<div id ="die6" class="dice">0</div>
+<!--<div id ="die2" class="dice">0</div>-->
+<button onClick="rollDice6()">Roll!</button>
+<h5 id="status"></h5>
+</div>
+
+<div class="col">
+<!--eight sided die-->
+  <h2> 8 SIDED DIE </h2>
+<div id="die8" class="dice">0</div>
+<button onclick="rollDice8()">Roll!</button>
+  <h5 id="status8"></h5>
+</div>
+
+
+
+<!--ten sided die-->
+<div class="col">
+  <h2> 10 SIDED DIE </h2>
+<div id="die10" class="dice">0</div>
+<button onclick="rollDice10()">Roll!</button>
+  <h5 id="status10"></h5>
+</div>
+</div>
+
+<div class="grid">
+  <!--twelve sided die-->
+  <div class="col">
+    <h2> 12 SIDED DIE </h2>
+  <div id="die12" class="dice">0</div>
+  <button onclick="rollDice12()">Roll!</button>
+    <h5 id="status12"></h5>
+</div>
+
+  <div class="col">
+  <!--twenty sided die-->
+    <h2> 20 SIDED DIE </h2>
+  <div id="die20" class="dice">0</div>
+  <button onclick="rollDice20()">Roll!</button>
+    <h5 id="status20"></h5>
+  </div>
+
+
+
+  <!--percintile sided die-->
+  <div class="col">
+    <h2> PERCINTILE SIDED DIE </h2>
+  <div id="die100" class="dice">0</div>
+  <button onclick="rollDice100()">Roll!</button>
+    <h5 id="status100"></h5>
+  </div>
+
+</div>
+
+<input type="button" value="RESET" onClick="window.location.reload()">
+
+</body
+
+</html>
